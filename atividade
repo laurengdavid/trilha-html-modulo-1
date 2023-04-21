@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução ao HTML</title>
+</head>
+<body>
+<H1> Introdução ao HTML </H1>
+<HR></HR>
+<h2>Índice</h2>
+<ul>
+   <li><a href="#o-que">O que é HTML</a></li> 
+   <li><a href="#estrutura">Estrutura básica do HTML</a></li>
+   <li><a href="#tags">Tags</a></li>
+   <li> <a href="#referencias">Referências</a></li>
+</ul>
+<h2 id="o-que">O que é HTML</h2>
+<p>HTML significa HiperText Markup Language, traduzindo ao português: Linguagem de Marcação de Hipertexto. Criada pelo cientista britânico Tim Berners-Lee, O HTML é o componente básico da web, ele permite inserir o conteúdo e estabelecer a estrutura básica de um website. Portanto, ele serve para dar significado e organizar as informações de uma página na web. Sem isso, o navegador não saberia exibir textos como elementos ou carregar imagens e outros conteúdos.</p>
+<h2 id="estrutura"> Estrutura básica do HTML</h2>
+<p>O documento deve conter uma declaração informando o doctype, que no caso do HTML5, basta declarar com o elemento !DOCTYPE html. Após isso iniciamos nosso documento com a tag html que deverá ser fechada ao final do documento com </html>. Posteriormente, nosso documento deverá ter um elemento head que receberá todas as informações básicas da sua página, como o título, links de elementos externos, metadados, etc. Declaramos então um título para página através da tag title. Finalmente abrimos então a tag body que consiste no corpo do nosso documento, onde ficarão todos os elementos que serão renderizados na tela do navegador. 
+</p>
+<h2 id="tags">Tags </h2>
+<p>Através de qualquer editor de texto, como o Sublime Text, o NotePad++ ou até mesmo o bloco de notas, é possível criar um documento com a extensão .html que será renderizado pelos navegadores.
+Conforme explicado anteriormente, este documento consiste em uma série de tags. As tags são códigos que definem toda a estrutura da página, tais como o seu tamanho, a fonte da letra, as cores, as quebras de linha e etc. 
+</p>
+<h2 id="referencias">Referências</h2>
+<ul><li><a href="https://www.youtube.com/watch?v=SV7TL0hxmIQ&t=578s" target="_blank">Curso de HTML para iniciantes - Aprenda HTML em 1 hora
+</a></li>
+<li><a href="https://www.homehost.com.br/blog/tutoriais/o-que-e-html/#top04" target="_blank">O que é HTML? Entenda de forma descomplicada
+</a>
+</li>
+</ul>
+</body>
+</html>
